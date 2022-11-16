@@ -1,0 +1,28 @@
+
+$utilities: () !default;
+$utilities: map-merge((
+	'border-radius':(
+		property: border-radius,
+		class: br,
+		values:(2:20px),
+		),
+	'font-weight':(
+		property: font-weight,
+		class: font-weight,
+		values:(
+			5:500,
+			9:900
+			)
+	),
+	'font-size':(
+		property:font-size,
+		class:font-size,
+		values:(1:1.2em)
+	)
+	,
+	'max-width':(
+		property: max-width,
+		class:max,
+		values:(600:600px)
+	)
+),$utilities);
